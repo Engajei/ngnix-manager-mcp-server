@@ -45,7 +45,7 @@ function resolveConfig(): { baseUrl: string; email: string; password: string } {
       `nginx-manager-mcp-server
 
 Usage:
-  npx @kognar-tools/nginx-manager-mcp-server \\
+  npx @kognar/nginx-manager-mcp-server \\
     --base-url <url> --email <email> --password <password>
 
 Options (fallback to env vars NPM_BASE_URL / NPM_EMAIL / NPM_PASSWORD):

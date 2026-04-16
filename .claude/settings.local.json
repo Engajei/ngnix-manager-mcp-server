@@ -4,7 +4,13 @@
       "Bash(npm whoami *)",
       "Bash(npm run *)",
       "Bash(npm publish *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git tag *)",
+      "Bash(git checkout *)",
+      "WebFetch(domain:www.gnu.org)",
+      "Bash(curl *)",
+      "Bash(npm install *)"
     ]
   }
 }

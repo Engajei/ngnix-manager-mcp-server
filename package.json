@@ -1,6 +1,6 @@
 {
   "name": "@kognar/nginx-manager-mcp-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server wrapping the Nginx Proxy Manager API",
   "type": "module",
   "bin": {
@@ -24,6 +24,7 @@
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   },
+  "license": "AGPL-3.0-only",
   "engines": {
     "node": ">=18"
   }
