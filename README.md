@@ -1,4 +1,8 @@
-# nginx-manager-mcp-server
+<p align="center">
+  <img src="https://kognar.com/assets/img/logo_kognar_white.svg" alt="Kognar" width="200" />
+</p>
+
+# @kognar/nginx-manager-mcp-server
 
 MCP server que abstrai chamadas à API do [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager).
 
@@ -20,7 +24,7 @@ Aceita via **argumentos de CLI** ou **variáveis de ambiente** (CLI tem precedê
 | `--password` (ou `--pass`)| `NPM_PASSWORD` | senha |
 
 ```bash
-npx @kognar-tools/nginx-manager-mcp-server \
+npx @kognar/nginx-manager-mcp-server \
   --base-url https://npm.example.com \
   --email admin@example.com \
   --password changeme
@@ -37,7 +41,7 @@ Adicione no `claude_desktop_config.json` (ou `.mcp.json`):
       "command": "npx",
       "args": [
         "-y",
-        "@kognar-tools/nginx-manager-mcp-server",
+        "@kognar/nginx-manager-mcp-server",
         "--base-url", "https://npm.example.com",
         "--email", "admin@example.com",
         "--password", "changeme"
@@ -54,7 +58,7 @@ Alternativa com env vars:
   "mcpServers": {
     "nginx-manager": {
       "command": "npx",
-      "args": ["-y", "@kognar-tools/nginx-manager-mcp-server"],
+      "args": ["-y", "@kognar/nginx-manager-mcp-server"],
       "env": {
         "NPM_BASE_URL": "https://npm.example.com",
         "NPM_EMAIL": "admin@example.com",
@@ -84,3 +88,7 @@ npm run typecheck  # valida tipos sem emitir
 ```
 
 Autenticação usa `POST /api/tokens` com cache em memória e refresh automático 1 min antes da expiração.
+
+## Licença
+
+[AGPL-3.0](LICENSE)
