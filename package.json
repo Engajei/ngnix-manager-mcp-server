@@ -1,7 +1,11 @@
 {
   "name": "@kognar/nginx-manager-mcp-server",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MCP server wrapping the Nginx Proxy Manager API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kognar-ai/ngnix-manager-mcp-server.git"
+  },
   "type": "module",
   "bin": {
     "nginx-manager-mcp-server": "dist/index.js"
