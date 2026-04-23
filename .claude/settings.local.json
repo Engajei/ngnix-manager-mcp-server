@@ -10,7 +10,10 @@
       "Bash(git checkout *)",
       "WebFetch(domain:www.gnu.org)",
       "Bash(curl *)",
-      "Bash(npm install *)"
+      "Bash(npm install *)",
+      "Bash(git push *)",
+      "Bash(gh pr *)",
+      "Bash(git pull *)"
     ]
   }
 }
